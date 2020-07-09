@@ -11,6 +11,7 @@ def slowfun_too_slow(x, y):
     return v
 
 cache = {}
+
 def slowfun(x, y):
     """
     Rewrite slowfun_too_slow() in here so that the program produces the same
