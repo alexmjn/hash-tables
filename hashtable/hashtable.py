@@ -63,8 +63,7 @@ class HashTable:
     def __init__(self, capacity):
         self.capacity = max(MIN_CAPACITY, capacity)
         self.storage = [None] * self.capacity
-        for i in range(self.capacity):
-            self.storage[i] = LinkedList()
+
 
 
     def get_num_slots(self):
